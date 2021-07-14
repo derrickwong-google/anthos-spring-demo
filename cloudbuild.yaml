@@ -1,0 +1,11 @@
+steps:
+  - name: 'gcloud'
+    args:
+      - 'builds'
+      - 'submit'
+      - '--pack'
+      - 'image'
+      - 'gcr.io/derrickwong-default/anthos-spring-demo'
+images:
+  - 'gcr.io/derrickwong-default/anthos-spring-demo'
+
